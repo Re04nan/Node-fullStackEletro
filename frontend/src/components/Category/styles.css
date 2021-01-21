@@ -1,0 +1,13 @@
+.lista {
+    list-style-type: none;
+}
+#categorias {
+    width: 20%;
+    text-align: left;
+    float: left;
+    cursor: pointer;
+    color: #0099cc;
+}
+#categorias h3 {
+    color: black;
+}

@@ -1,0 +1,18 @@
+#pagamento {
+    color: red;
+    text-align: center;
+}
+#pagamento img {
+    padding-top: 20px;
+    width: 40%;
+}
+footer {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(0,0,0,0);
+    opacity: 0.8;
+    color: black;
+}

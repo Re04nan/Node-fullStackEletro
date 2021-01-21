@@ -1,0 +1,24 @@
+#secContatos {
+    background-image: url("../imagens/Callcenter-cuate.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+}
+.divContatos {
+    display: flex;
+    width: 80vw;
+    box-sizing: border-box;
+    justify-content: center;
+    font-size: 1.5vw;
+}
+.iconeRS {
+    width: 2.5vw;
+}
+.form-control {
+    width: 50vw !important;
+}
+#formContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

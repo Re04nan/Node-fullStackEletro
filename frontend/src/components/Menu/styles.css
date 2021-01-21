@@ -1,0 +1,17 @@
+.nav {
+    background-color: black !important;
+    font-size: 22px !important;
+}
+.nav-link a {
+    color: #0099cc;
+    text-decoration: none;
+    text-align: center;
+    width: 25%;
+    cursor: pointer;
+}
+.nav-link a:hover{
+    color: white;
+}
+#logo {
+    width: 100%;
+}

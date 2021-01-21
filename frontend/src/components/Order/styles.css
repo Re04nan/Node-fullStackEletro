@@ -1,0 +1,52 @@
+#container_pedidos h1 {
+    font-size: 50px;
+}
+#container_pedidos {
+    background: rgb(204, 235, 245);
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    padding-left: 20px;
+    width: 100%;
+    height: 80vh;
+}
+.painelClone {
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    top: 180px;
+    width: 50%;
+    height: 80vh;
+}
+#container_pedidos label, div {
+    font-size: 22px;
+}
+#container_pedidos input {
+    display: block;
+}
+#quantidade{
+    width: 125px;
+    text-align: center;
+    border-radius: 10%;
+}
+#nome, #endereco, #telefone {
+    width: 40vw;
+    height: 6.5vh;
+    margin: 5px;
+    border: 0;
+}
+#total{
+    width: 120px;
+    text-align: center;
+    border-radius: 10%;
+}
+#valor{
+    position: relative;
+    bottom: 20%;
+    left: 20%;
+}
