@@ -5,13 +5,13 @@ import Index from '../Index';
 import Products from '../Products';
 import OurStores from '../Our-stores';
 import Contact from '../Contact';
-import Menu from '../Menu';
 import Order from '../Order';
+import Menu from '../Menu';
                 
 const Routes = () => {
     return(
         <>
-                <Menu/>
+            <Menu/>
                 <Switch>
                     <Route path="/" component={Index} exact />
                     <Route path="/Produtos" component={Products}/>

@@ -1,0 +1,15 @@
+article{
+    border-color: 2px solid firebrick;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-content: center;
+    flex-direction: row; 
+}
+.sold{
+    display: inline-block;
+    text-align: center;
+}
+.sold img {
+    width: 150px !important;
+}

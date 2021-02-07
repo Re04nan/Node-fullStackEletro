@@ -1,13 +1,11 @@
-import {React, useEffect, useState} from 'react';
+import {React, useEffect, useState, lazy, Suspense} from 'react';
 import {Link} from 'react-router-dom'; 
-
-import Category from '../Category';
 
 import './styles.css';
 import {copiar, exibirZoom} from './funcoes';
 
-
 const Products = () => {
+    const Category = lazy(()=> import('../Category'));
     const [produtos, setProdutos] = useState([]);
     const [filtro, setFiltro] = useState("todos");
 
@@ -28,7 +26,17 @@ const Products = () => {
             <h2>Produtos</h2>
             <hr/>
         </header>
-        <Category onClick={filtroCategorias}/>
+        <Suspense fallback={
+            <div style={{
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center"
+            }}>
+                <img alt="Loading..." src="http://www.cabovillas.com/images/icons/loading-results.gif"/>
+            </div>
+            }>
+            <Category onClick={filtroCategorias}/>
+        </Suspense>
         <section>
             <div id="container">
                 {produtos.map((item) => {
