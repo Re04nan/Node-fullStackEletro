@@ -2,7 +2,7 @@
     background-image: url("../imagens/Callcenter-cuate.png");
     background-repeat: no-repeat;
     background-position: left;
-    background-size: contain;
+    background-size: cover;
 }
 .divContatos {
     display: flex;

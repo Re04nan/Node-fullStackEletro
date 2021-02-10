@@ -21,11 +21,11 @@ const App = () => {
             </Suspense>
             </BrowserRouter>
             <Suspense fallback={
-            <h2 style={{
-                textAlign: "center",
-                color: "#0099cc"
-            }}>Página carregando... <br/> Aguarde um instante!</h2>
-            }>
+                <h2 style={{
+                    textAlign: "center",
+                    color: "#0099cc"
+                }}>Página carregando... <br/> Aguarde um instante!</h2>
+                }>
                 <Footer/>
             </Suspense>
         </>
